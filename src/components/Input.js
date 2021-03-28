@@ -5,7 +5,6 @@ import { useDispatch } from "react";
 import { saveTodo } from "../features/todoSlice";
 function Input() {
   const [input, setInput] = useState("");
-
   const dispatch = useDispatch();
   const addTodo = () => {
  
